@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="tr.css">
+    <style>
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h1>Welcome to my portfolio</h1>
+      <p>I am a web developer with experience in HTML, CSS, and JavaScript.</p>
+      <a href="#contact" class="button-hire">Contact me</a>
+      <br>
+      <br>
+      <br>
+      <a href="#portfolio" class="button-lrn">Details</a>
+    </section>
+    <section id="about">
+      <h2>About me</h2>
+      <img src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/female-user-icon.png" alt="Profile picture">
+      <p>Hi, my name is Raasika. I am a web developer with 5 years of experience. I specialize in HTML, CSS, and JavaScript.</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="grid">
+        <div class="item">
+          <img src="https://images.news18.com/ibnlive/uploads/2021/10/makeup-kit-16349877184x3.jpg">
+          <h3>Project 1</h3>
+          <p>Cosmetics Website </p>
+        </div>
+        <br>
+        <div class="item">
+          <img src="https://i0.wp.com/www.justrechargenow.com/wp-content/uploads/2018/06/online-travel-booking.png?fit=567%2C431&ssl=1" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Ticket Booking Website</p>
+        </div>
+       <br>
+        <div class="item">
+          <img src="https://www.piecex.com/product_image/20200728013032-00001751-screenshot20200727calculator3.png" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>Professional Calculator</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2023 Raasika.M</p>
+    </footer>
+  </body>
+</html>

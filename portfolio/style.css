@@ -1,0 +1,149 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  body {
+   background-color: rgb(196, 156, 219);
+ }
+ 
+  header {
+   background-color: #341049;
+   color: #871313;
+   padding: 10px;
+ }
+ 
+ nav {
+   background-color: #341049;
+   color: #8d3131;
+   padding: 10px;
+ }
+ .grid {
+   display: flex;
+   flex-direction:row;
+   align-items:row;
+   justify-content: center;
+ }
+ 
+ .item {
+   border: 1px solid #191818;
+   padding: 20px;
+   text-align: center;
+   width: 80%;
+   margin-bottom: 20px;
+ }
+ 
+  nav ul {
+    list-style: none;
+    margin: 50;
+    padding: 50;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #f8f8f8;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin-top: 0;
+  }
+  
+  #hero p {
+    font-size: 24px;
+  }
+  
+  .button-hire {
+    background-color: #341049;
+    color: #f4f2f2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .button-lrn {
+    background-color: #341049;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .item {
+    border: 1px solid #631313;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact label {
+    margin-bottom: 10px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #contact button {
+    background-color: #341049;
+    color: #f0ebeb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #f7eded;
+    color: #333;
+  }
+  body {
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .footer {
+   text-align: center;
+   padding: 100px;
+   color: #080707;
+   font-size: 14px;
+   background-color: #b1a3de;
+ }
